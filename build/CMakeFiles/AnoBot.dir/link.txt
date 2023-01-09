@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/AnoBot.dir/main.cpp.o  -o AnoBot 
