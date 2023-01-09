@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/AnoBot.dir/main.cpp.o  -o AnoBot 
+/usr/bin/c++  -g  -rdynamic CMakeFiles/AnoBot.dir/main.cpp.o CMakeFiles/AnoBot.dir/src/Chess/board.cpp.o  -o AnoBot 

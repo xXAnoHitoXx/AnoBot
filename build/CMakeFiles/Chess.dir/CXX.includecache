@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xxanohitoxx/Documents/WorkSpace/AnoBot/Chess/board.cpp
+board.h
+/home/xxanohitoxx/Documents/WorkSpace/AnoBot/Chess/board.h
+
+/home/xxanohitoxx/Documents/WorkSpace/AnoBot/Chess/board.h
+

@@ -78,6 +78,17 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build/CMakeFiles /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build/Chess/CMakeFiles/progress.marks
@@ -125,6 +136,33 @@ Chess/fast:
 	cd /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build && $(MAKE) -f Chess/CMakeFiles/Chess.dir/build.make Chess/CMakeFiles/Chess.dir/build
 .PHONY : Chess/fast
 
+board.o: board.cpp.o
+
+.PHONY : board.o
+
+# target to build an object file
+board.cpp.o:
+	cd /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build && $(MAKE) -f Chess/CMakeFiles/Chess.dir/build.make Chess/CMakeFiles/Chess.dir/board.cpp.o
+.PHONY : board.cpp.o
+
+board.i: board.cpp.i
+
+.PHONY : board.i
+
+# target to preprocess a source file
+board.cpp.i:
+	cd /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build && $(MAKE) -f Chess/CMakeFiles/Chess.dir/build.make Chess/CMakeFiles/Chess.dir/board.cpp.i
+.PHONY : board.cpp.i
+
+board.s: board.cpp.s
+
+.PHONY : board.s
+
+# target to generate assembly for a file
+board.cpp.s:
+	cd /home/xxanohitoxx/Documents/WorkSpace/AnoBot/build && $(MAKE) -f Chess/CMakeFiles/Chess.dir/build.make Chess/CMakeFiles/Chess.dir/board.cpp.s
+.PHONY : board.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -133,7 +171,11 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... test"
 	@echo "... Chess"
+	@echo "... board.o"
+	@echo "... board.i"
+	@echo "... board.s"
 .PHONY : help
 
 

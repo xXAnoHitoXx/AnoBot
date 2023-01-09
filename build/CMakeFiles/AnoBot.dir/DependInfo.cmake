@@ -5,11 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/xxanohitoxx/Documents/WorkSpace/AnoBot/main.cpp" "/home/xxanohitoxx/Documents/WorkSpace/AnoBot/build/CMakeFiles/AnoBot.dir/main.cpp.o"
+  "/home/xxanohitoxx/Documents/WorkSpace/AnoBot/src/Chess/board.cpp" "/home/xxanohitoxx/Documents/WorkSpace/AnoBot/build/CMakeFiles/AnoBot.dir/src/Chess/board.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../src/*"
   )
 
 # Targets to which this target links.

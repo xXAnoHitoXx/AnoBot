@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Chess/board.h"
+#include "src/Chess/board.h"
 
 int main(int, char**) {
-    std::cout << "Hello, world number " << bitboard << "!" << std::endl;
+    std::cout << "Hello, world number " << yolo() << "!" << std::endl;
 }
