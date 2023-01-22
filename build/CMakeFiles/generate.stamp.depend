@@ -1,0 +1,33 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/Catch2/lib/cmake/Catch2/Catch.cmake
+C:/Program Files (x86)/Catch2/lib/cmake/Catch2/Catch2Config.cmake
+C:/Program Files (x86)/Catch2/lib/cmake/Catch2/Catch2ConfigVersion.cmake
+C:/Program Files (x86)/Catch2/lib/cmake/Catch2/Catch2Targets-debug.cmake
+C:/Program Files (x86)/Catch2/lib/cmake/Catch2/Catch2Targets.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CTest.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CTestTargets.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CTestUseLaunchers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/DartConfiguration.tcl.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+D:/AnoBot/AnoBot/CMakeLists.txt
+D:/AnoBot/AnoBot/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake
+D:/AnoBot/AnoBot/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+D:/AnoBot/AnoBot/build/CMakeFiles/3.25.1/CMakeRCCompiler.cmake
+D:/AnoBot/AnoBot/build/CMakeFiles/3.25.1/CMakeSystem.cmake
