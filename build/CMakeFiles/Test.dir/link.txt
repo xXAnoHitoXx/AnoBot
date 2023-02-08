@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/Test.dir/test/test.cpp.o  -o Test  /usr/local/lib/libCatch2Main.a /usr/local/lib/libCatch2.a 

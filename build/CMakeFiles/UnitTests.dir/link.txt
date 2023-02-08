@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/UnitTests.dir/test/test.cpp.o  -o UnitTests  Chess/libChess.a 

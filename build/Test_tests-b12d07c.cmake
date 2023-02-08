@@ -1,5 +1,0 @@
-add_test( [==[do Tests works!]==] D:/AnoBot/AnoBot/build/Debug/Test.exe [==[do Tests works!]==]  )
-set_tests_properties( [==[do Tests works!]==] PROPERTIES WORKING_DIRECTORY D:/AnoBot/AnoBot/build)
-add_test( [==[making Pieces]==] D:/AnoBot/AnoBot/build/Debug/Test.exe [==[making Pieces]==]  )
-set_tests_properties( [==[making Pieces]==] PROPERTIES WORKING_DIRECTORY D:/AnoBot/AnoBot/build)
-set( Test_TESTS [==[do Tests works!]==] [==[making Pieces]==])

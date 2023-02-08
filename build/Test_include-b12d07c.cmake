@@ -1,5 +1,0 @@
-if(EXISTS "D:/AnoBot/AnoBot/build/Test_tests-b12d07c.cmake")
-  include("D:/AnoBot/AnoBot/build/Test_tests-b12d07c.cmake")
-else()
-  add_test(Test_NOT_BUILT-b12d07c Test_NOT_BUILT-b12d07c)
-endif()
