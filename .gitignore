@@ -1,2 +1,2 @@
-$GIT_DIR/build/
-$GIT_DIR/.vscode/
+build/
+.vscode/
